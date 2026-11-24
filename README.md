@@ -20,7 +20,7 @@ Projetar, configurar e validar uma rede local (LAN) híbrida para pequeno escrit
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **LAN Interna (SOHO)** | `192.168.0.0/24` | WRT300N | LAN / Wireless | `192.168.0.1` | Gateway Padrão e Servidor DHCP |
 | **LAN Interna (SOHO)** | `192.168.0.0/24` | PC / Laptops | Ethernet / Wireless | `192.168.0.x` | Atribuição dinâmica via DHCP |
-| **LAN Interna (SOHO)** | `192.168.0.0/24` | Printer0 | Wireless | IP Reservado | Reserva fixa (Static DHCP por MAC) |
+| **LAN Interna (SOHO)** | `192.168.0.0/24` | Printer0 | Wireless | `192.168.0.110` | Reserva fixa (DHCP por Static) |
 | **Enlace WAN (Nuvem)** | `200.100.10.0/30` | WRT300N | Internet (WAN) | `200.100.10.2` | IP Estático (Gateway `200.100.10.1`) |
 | **Enlace WAN (Nuvem)** | `200.100.10.0/30` | Router-PT | Serial | `200.100.10.1` | Conectado à ponte Coaxial-Serial da Nuvem |
 | **Rede Externa (DMZ)** | `200.100.20.0/24` | Router-PT | FastEthernet | `200.100.20.1` | Gateway do Servidor Web/DNS |

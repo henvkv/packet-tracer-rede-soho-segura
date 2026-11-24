@@ -6,7 +6,7 @@ Projeto prático desenvolvido no **Cisco Packet Tracer** como parte do meu portf
 Projetar, configurar e validar uma rede local (LAN) híbrida para pequeno escritório/residência (SOHO), atendendo estações cabeadas e dispositivos sem fio com segurança wireless, atribuição automatizada de endereços IP e acesso a um servidor web externo simulando a internet.
 
 ## 🏗️ Topologia da Rede
-![Topologia Completa](topologia-soho.png)
+![Topologia Completa](topologia-soho.jpg)
 
 ### Equipamentos Utilizados
 * **Roteador Wireless:** Cisco WRT300N (Gateway LAN, NAT, DHCP e Access Point)
@@ -37,12 +37,12 @@ Projetar, configurar e validar uma rede local (LAN) híbrida para pequeno escrit
 
 ### 1. Resolução de Nomes (DNS) e Acesso Web (HTTP)
 Acesso à página hospedada no servidor externo diretamente pelo navegador de uma estação interna utilizando o domínio `web.com`:
-![Acesso Web via DNS](navegador-dns.png)
+![Acesso Web via DNS](navegador-dns.jpg)
 
 ### 2. Conectividade e Configuração IP (`ping` e `ipconfig /all`)
 Validação dos parâmetros recebidos via DHCP (incluindo o servidor DNS) e teste de alcance ponta a ponta até `200.100.20.2`:
-![Teste de Ping](ping.png)
-![Teste de IPConfig](ipconfig.png)
+![Teste de Ping](ping.jpg)
+![Teste de IPConfig](ipconfig.jpg)
 
 ## 📂 Como executar o projeto
 1. Faça o download do arquivo `.pkt` disponível neste repositório.

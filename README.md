@@ -40,7 +40,7 @@ Acesso à página hospedada no servidor externo diretamente pelo navegador de um
 ![Acesso Web via DNS](navegador-dns.jpg)
 
 ### 2. Conectividade e Configuração IP (`ping` e `ipconfig /all`)
-Validação dos parâmetros recebidos via DHCP (incluindo o servidor DNS) e teste de alcance ponta a ponta até `200.100.20.2`:
+Validação dos parâmetros recebidos via DHCP (incluindo o servidor DNS) e teste de alcance ponta a ponta:
 ![Teste de Ping](ping.jpg)
 ![Teste de IPConfig](ipconfig.jpg)
 
